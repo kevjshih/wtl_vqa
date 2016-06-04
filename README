@@ -7,14 +7,16 @@ SETUP INSTRUCTIONS:
 2. Setup directory paths as specified in globals.m. Relevant tarballs specified in comments
 3. Clone the VQA API into the data directory and setup annotations 
 4. Install matconvnet beta19 (17 or higher should work) and specify path in startup.m (with CuDNN enabled)
-5. Create results directory to store model snapshots from training
+5. Download vgg-s model from: http://www.vlfeat.org/matconvnet/models/imagenet-vgg-s.mat
+6. Create results directory to store model snapshots from training
 
 MAIN FUNCTIONS:
 word_and_vision_regions_inner_network.m : running this should initialize training. Results stored in opts.train.expDir
 word_and_vision_regions_inner_network_init.m: constructs the network
 mcqMaxMarginLossLayer.m: Loss layer implementation
-regionsProjectInnerLayer.m: region selection layer implementation
+regionsProjectInnerLayer2.m: region selection layer implementation
 determiner_list.m: list of removed stopwords removed from questions
+globals.m: contains global paths to where cached features are stored.
 
 DIRECTORIES:
 word2vec_cache_utils: directory that holds caches of pre-processed question and answers

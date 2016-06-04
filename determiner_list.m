@@ -1,0 +1,1 @@
+determiners_blist = {'a', 'few', 'an', 'the', 'another', 'any', 'much', 'either', 'this', 'that', 'these', 'those'};
