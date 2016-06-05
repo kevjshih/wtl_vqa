@@ -7,8 +7,9 @@ SETUP INSTRUCTIONS:
 2. Setup directory paths as specified in globals.m. Relevant tarballs specified in comments
 3. Clone the VQA API into the data directory and setup annotations 
 4. Install matconvnet beta19 (17 or higher should work) and specify path in startup.m (with CuDNN enabled)
-5. Download vgg-s model from: http://www.vlfeat.org/matconvnet/models/imagenet-vgg-s.mat
+5. Download the vgg-s model from: http://www.vlfeat.org/matconvnet/models/imagenet-vgg-s.mat
 6. Create results directory to store model snapshots from training
+7. Download and extract text feature caches to top level directory (wget http://xor.cs.illinois.edu/~kevin/wtl_cache_feats/word2vec_cache_utils.tar.gz)
 
 MAIN FUNCTIONS:
 word_and_vision_regions_inner_network.m : running this should initialize training. Results stored in opts.train.expDir
