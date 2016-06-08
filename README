@@ -20,7 +20,8 @@ determiner_list.m: list of removed stopwords removed from questions
 globals.m: contains global paths to where cached features are stored.
 
 VISUALIZATION EXAMPLE:
-run visualize_on_held_out.m to visualize results on the held-out set. The held out set comprises 10% of the training data from the train set. 
+run visualize_on_held_out.m to visualize results on the held-out set. The held out set comprises 10% of the training data from the train set.
+Our test model can be downloaded from:  http://xor.cs.illinois.edu/~kevin/wtl_cache_feats/wtl_trainval_model.mat
 
 DIRECTORIES:
 word2vec_cache_utils: directory that holds caches of pre-processed question and answers
