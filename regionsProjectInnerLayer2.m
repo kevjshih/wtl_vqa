@@ -19,7 +19,7 @@ function res = regionsProjectInnerLayer2(layer, res_i, res_ip1, do_forward,opts)
 
 % J can be anything (the next layer will get this output).
 %
-% Author: saurabh.me@gmail.com (Saurabh Singh).
+% Author: saurabh.me@gmail.com (Saurabh Singh) and kevin.j.shih@gmail.com (Kevin Shih).
 
 % l_feats should be 1 x num_mults x L_feat_size x batchsize
 
