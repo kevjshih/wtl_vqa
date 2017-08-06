@@ -1,17 +1,18 @@
-VQA_RESULTS_DIR = 'VQA_results' % possible unused
+VQA_RESULTS_DIR = 'VQA_results' % possibly unused
 
 
 % path to cached features and boxes in data/MSCOCO
 
-% wget http://xor.cs.illinois.edu/~kevin/wtl_cache_feats/boxes.tar.gz
+% wget vision.cs.illinois.edu/wtl/boxes.tar.gz
 MSCOCO_BOX_CACHE_DIR = 'data/MSCOCO/boxes/'
 
-% wget http://xor.cs.illinois.edu/~kevin/wtl_cache_feats/box_feats_20_ov.tar.gz
+% run utils/mscoco_cache_vgg_box_feats.m and store results here
 MSCOCO_BOX_FEAT_CACHE_DIR = 'data/MSCOCO/box_feats_20ov/'
 
-% wget http://xor.cs.illinois.edu/~kevin/wtl_cache_feats/boxes_test.tar.gz
+%wget vision.cs.illinois.edu/wtl/boxes_test.tar.gz
 MSCOCO_TEST_BOX_CACHE_DIR = 'data/MSCOCO/boxes_test/'
-% wget http://xor.cs.illinois.edu/~kevin/wtl_cache_feats/box_feats_test_20ov
+
+% run utils/mscoco_cache_vgg_box_feats_test.m and cache results here
 MSCOCO_TEST_BOX_FEAT_CACHE_DIR = 'data/MSCOCO/box_feats_test_20ov/'
 
 
